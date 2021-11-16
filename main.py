@@ -1,7 +1,6 @@
 import sqlalchemy
 from sqlalchemy.ext.declarative import declarative_base
 
-# Define the MariaDB engine using MariaDB Connector/Python
 engine = sqlalchemy.create_engine("mariadb+mariadbconnector://root:root@127.0.0.1:3306/diccionario")
 
 Base = declarative_base()
@@ -14,7 +13,6 @@ class Diccionario(Base):
 
 Base.metadata.create_all(engine)
 
-# Create a session
 Session = sqlalchemy.orm.sessionmaker()
 Session.configure(bind=engine)
 session = Session()

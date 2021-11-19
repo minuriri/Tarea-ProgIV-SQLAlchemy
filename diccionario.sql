@@ -37,9 +37,9 @@ INSERT INTO `diccionario` (`id`, `palabra`, `significado`) VALUES
 	(5, 'Birria', 'Juego muy repetitivo sin espiritu de competencia o finalidad alguna'),
 	(6, 'Bochinche', 'chisme'),
 	(7, 'Maleante', 'Delincuente o persona que quiere ser como los delincuentes.')
-  (8, 'Martinelli', 'Moneda de un balboa o dólar'),
-  (9, 'Paracaídas', 'persona que acude a una reunión o fiesta sin invitación.'),
-  (10, 'Rantan', 'Mucho.');
+  	(8, 'Martinelli', 'Moneda de un balboa o dólar'),
+  	(9, 'Paracaídas', 'persona que acude a una reunión o fiesta sin invitación.'),
+  	(10, 'Rantan', 'Mucho.');
 /*!40000 ALTER TABLE `diccionario` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
